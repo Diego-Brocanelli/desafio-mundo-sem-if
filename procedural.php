@@ -11,8 +11,8 @@ function work(string $performer, string $period)
     switch ($performer) {
 
         case 'dancer':
-            $message = "Sou um dançarino\n"
-                . "Gostaria de programar, mas tenho coisas mais importantes para fazer!\n";
+            $message = "Sou um dançarino e"
+                . "gostaria de programar, mas tenho coisas mais importantes para fazer!\n";
 
             $message .= $period == 'day'
                 ? 'É dia: Estou dançando!'
@@ -20,8 +20,8 @@ function work(string $performer, string $period)
             break;
 
         case 'developer':
-            $message = "Sou um candango que programa\n"
-                . "Não tenho vida... sou programador...\n";
+            $message = "Sou um candango que programa e"
+                . "Não tenho vida...\n";
 
             $message .= $period == 'day'
                 ? 'É dia: Estou programando agora!'
@@ -29,8 +29,8 @@ function work(string $performer, string $period)
             break;
 
         case 'player':
-            $message = "Sou um jogador de LOL\n"
-                . "Não programo, pois meu é papel é jogar joguinho!\n";
+            $message = "Sou um jogador de LOL e "
+                . "não programo, pois meu é papel é jogar joguinho!\n";
 
             $message .= $period == 'day'
                 ? 'É dia: Estou trabalhando agora!'
