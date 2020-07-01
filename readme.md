@@ -32,7 +32,7 @@ Tipo     | Período | Mensagem
 
 2. Com base no código do arquivo `procedural.php`, nos conceitos estudados ao longo das últimas reuniões e nos Padrões de Projeto existentes, crie a mesma implementação **sem nenhuma estrutura de controle**. **Ou seja, IF, Switch, While, For, Foreach não podem ser utilizados.**
 
-3. Edite este `readme.md` e acrescente qual ou quais Padrões de Projeto você usou para solucionar o problema.
+3. Edite este `readme.md` no seu branch e acrescente qual ou quais Padrões de Projeto você usou para solucionar o problema.
 
 4. Na próxima reunião técnica, apresente o que você fez e explique os padrões escolhidos.
 
