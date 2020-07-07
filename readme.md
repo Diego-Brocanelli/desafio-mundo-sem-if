@@ -24,7 +24,7 @@ Tipo     | Período | Mensagem
 'developer' | 'day'   | Sou um candango que programa e não tenho vida... É dia: Estou programando agora!
 'developer' | 'night'   | Sou um candango que programa e não tenho vida... É noite: Eu nunca paro de programar!
 'player' | 'day'   | Sou um jogador de LOL. Não programo, pois meu é papel é jogar joguinho! É dia: Estou trabalhando agora!
-'player' | 'day'   | Sou um jogador de LOL. Não programo, pois meu é papel é jogar joguinho! É noite: Estou jogando agora!
+'player' | 'night'   | Sou um jogador de LOL. Não programo, pois meu é papel é jogar joguinho! É noite: Estou jogando agora!
 
 ## O que fazer
 
