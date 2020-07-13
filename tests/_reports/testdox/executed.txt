@@ -1,0 +1,9 @@
+World Without If
+ [x] Dancer day
+ [x] Dancer night
+ [x] Developer day
+ [x] Developer night
+ [x] Player day
+ [x] Player night
+ [x] Error type
+

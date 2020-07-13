@@ -1,0 +1,24 @@
+{
+    "name": "diego/desafio-mundo-sem-if",
+    "description": "Resolucao do desafio do mundo sem if",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Brocanelli",
+            "email": "diego.brocanelli@buenonetworks.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "BNW\\DiegoBrocanelli\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.3@dev"
+    },
+    "scripts":{
+        "tests":"vendor/bin/phpunit tests/"
+    }
+}

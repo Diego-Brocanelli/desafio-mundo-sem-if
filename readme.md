@@ -38,6 +38,43 @@ Tipo     | Período | Mensagem
 
 Boa sorte!
 
+# Resolução
 
+Após análise, decide utilizar os padrões `AbstractFactory` e `Factory`.
+Assim eu consigo construir as classes "Pessoa" mantendo um padrão, determinando apenas do diferencial por pessoa.
 
+Eu separei a aplicação em 4 camada, sendo ela:
 
+- People;
+    - Camada onde determino:
+        - O que uma pessoa pode ter.
+        - E quais pessoas minha aplicação dispõe.
+- Factory;
+    - Camada responsável por criar os objetos conforme informado.
+- API
+    - Camada de acesso do cliente, onde ele pode consumir minha aplicação.
+
+## Requisitos
+
+- PHP >= 7.4;
+- Composer.
+
+## Executando os testes.
+
+Para executar a camada de testes, basta executar o comando abaixo.
+
+```bash
+composer tests
+```
+
+## Exemplo de uso
+
+```php
+<?php
+
+require_once __DIR__.'/vendor/autoload.php';
+
+use BNW\DiegoBrocanelli\WorldWithoutIfT;
+
+$object = (new WorldWithoutIfT())->analise('developer', 'day');
+```
